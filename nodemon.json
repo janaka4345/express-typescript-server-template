@@ -1,9 +1,9 @@
 {
     "watch": [
-        "src"
+        "srcMongo"
     ],
     "ext": ".ts,.js",
-    "exec": "ts-node ./src/index.ts",
+    "exec": "ts-node ./srcMongo/server.ts",
     "ignore": [
         "node_modules/*",
         "dist/*"
